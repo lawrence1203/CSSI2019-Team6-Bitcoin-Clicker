@@ -5,11 +5,16 @@
   justify-content: space-between;
 }
 
-.titlerow {
+.subrowcolumn2_Stats {
+  height: 100%;
 
 }
 
 .UserPicture {
+  width: 100px;
+  height: 100px;
+}
+.ItemPicture {
   width: 100px;
   height: 100px;
 }
@@ -25,7 +30,63 @@
   width: 17.5%;
 }
 
+.row {
+  margin-top: 1%;
+}
+
 #row1 {
   background-color: gray;
-  border: 3px solid black;
+  border: 1px solid black;
+}
+
+#row2 {
+  border: 1px solid black;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.subrow2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 46%;
+}
+
+.subcolumn1_progress {
+  width: 99.8%;
+  height: 50%;
+}
+
+
+  .subcolumn2 {
+  width: 101%;
+  height: 106%;
+
+}
+
+ .column2 {
+  width: 100%;
+}
+
+
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  
+
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(3px);
 }
