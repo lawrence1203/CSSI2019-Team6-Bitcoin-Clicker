@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: clicker.html
+  upload: clicker.html
+
+- url: /(.*)
+  static_files: clicker.css
+  upload: clicker.css
