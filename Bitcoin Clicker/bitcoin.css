@@ -1,13 +1,31 @@
-<<<<<<< HEAD
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-=======
 .title {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.titlerow {
+
+}
+
+.UserPicture {
+  width: 100px;
+  height: 100px;
+}
+
+.Currency {
+  text-align: center;
+  padding-top: 5% 0;
+  padding-bottom: 5% 0;
+  width: 65%;
+}
+
+.Shop {
+  width: 17.5%;
+}
+
+#row1 {
+  background-color: gray;
   border: 3px solid black;
->>>>>>> 86fa6c2f7754b2b2165fee9ea7af593e997dad96
 }
