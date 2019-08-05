@@ -18,7 +18,7 @@ var stoneAdd = 1
 function wood_digger() {
   if (woodshovels > 0) {
       dirtTotal = dirtTotal + woodshovels;
-      dirtTotal.innerHTML = total + " dirt";
+      dirtTotal.innerHTML = total + " bitcoin";
       console.log(total)
   }
 };
@@ -35,14 +35,14 @@ woodbutton.addEventListener("click", function() {
     woodAdd = woodAdd + 1;
     woodshovels = woodshovels + 1;
     clicklvl = clicklvl + 1;
-    document.querySelector("#WoodShovelCost").innerHTML = "Cost: " + woodCost + " dirt";
+    document.querySelector("#WoodShovelCost").innerHTML = "Cost: " + woodCost + " bitcoin";
     dirtTotal.innerHTML = total + " dirt";
     document.querySelector("#WoodShovelNum").innerHTML = woodshovels + " Wood Shovels";
     document.querySelector("#lvl").innerHTML = clicklvl + " dirt/click";
 
 } else {
   document.querySelector("#WoodShovelCost").innerHTML = "Not Enough Dirt!";
-  setInterval(function() {document.querySelector("#WoodShovelCost").innerHTML = "Cost: " + woodCost + " dirt"}, 1000);
+  setInterval(function() {document.querySelector("#WoodShovelCost").innerHTML = "Cost: " + woodCost + " bitcoin"}, 1000);
 }
 });
 
@@ -56,10 +56,10 @@ stonebutton.addEventListener("click", function() {
     document.querySelector("#StoneShovelCost").innerHTML = "Cost: " + stoneCost + " dirt";
     dirtTotal.innerHTML = total + " dirt";
     document.querySelector("#StoneShovelNum").innerHTML = stoneshovels + " Stone Shovels";
-    document.querySelector("#lvl").innerHTML = clicklvl + " dirt/click";
+    document.querySelector("#lvl").innerHTML = clicklvl + " bitcoin/click";
 
 } else {
   document.querySelector("#StoneShovelCost").innerHTML = "Not Enough Dirt!";
-  setInterval(function() {document.querySelector("#StoneShovelCost").innerHTML = "Cost: " + stoneCost + " dirt"}, 1000);
+  setInterval(function() {document.querySelector("#StoneShovelCost").innerHTML = "Cost: " + stoneCost + " bitcoin"}, 1000);
 }
 });
