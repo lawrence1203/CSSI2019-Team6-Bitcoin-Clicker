@@ -5,7 +5,7 @@
   justify-content: space-between;
 }
 
-.subrowcolumn2_Stats {
+.Stats {
   height: 100%;
 
 }
@@ -60,7 +60,7 @@
 }
 
 
-  .subcolumn2 {
+  .Upgrade {
   width: 101%;
   height: 106%;
 
@@ -80,7 +80,7 @@ button {
   cursor: pointer;
   outline: none;
   color: #fff;
-  
+
 
 }
 
