@@ -5,6 +5,11 @@
   justify-content: space-between;
 }
 
+body {
+  background-image: url(https://jllsly.com/wallpapers/space-wallpaper-desktop-Is-Cool-Wallpapers.jpg);
+  width: 100%;
+}
+
 .UserPicture {
   width: 100px;
   height: 100px;
@@ -101,7 +106,13 @@ button:active {
   transform: translateY(3px);
 }
 
-
+<div. {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    }
 
 /* ________________________________________________________________________________ */
 /* Starting a New Section */
