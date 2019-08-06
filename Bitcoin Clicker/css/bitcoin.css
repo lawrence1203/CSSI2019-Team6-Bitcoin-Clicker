@@ -1,0 +1,121 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+body {
+  background-image: url(https://jllsly.com/wallpapers/space-wallpaper-desktop-Is-Cool-Wallpapers.jpg);
+  width: 100%;
+}
+
+.UserPicture {
+  width: 100px;
+  height: 100px;
+}
+.ItemPicture {
+  width: 100px;
+  height: 100px;
+}
+
+.Currency {
+  text-align: center;
+  padding-top: 5% 0;
+  padding-bottom: 5% 0;
+  width: 65%;
+}
+
+.Shop {
+  width: 17.5%;
+}
+
+.row {
+  margin-top: 1%;
+}
+
+#row1 {
+  background-color: rgb(255, 0, 85);
+  border: 1px solid black;
+  opacity: 0.7;
+  filter: alpha(opacity=80);
+}
+
+#row2 {
+  border: 1px solid black;
+  background-color: rgb(255, 0, 85);
+  display: flex;
+  flex-direction: row;
+  opacity: 0.7;
+  filter: alpha(opacity=80);
+}
+
+.subcolumn1 {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+}
+
+.subcolum2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.subrow2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 46%;
+}
+
+.progress_bar {
+  width: 99.8%;
+  height: 50%;
+}
+
+.Stats {
+  height: 100%;
+  width: 200%;
+
+}
+.Upgrade {
+  height: 106%;
+  width: 438%;
+
+}
+
+ .column2 {
+  width: 100%;
+}
+
+
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+
+
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(3px);
+}
+
+<div. {
+    margin: 30px;
+    background-color: #ffffff;
+    border: .5px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    }
+
+/* ________________________________________________________________________________ */
+/* Starting a New Section */
