@@ -61,7 +61,7 @@
 }
 
 .progress_bar {
-  width: 99.9%;
+  width: 99.8%;
   height: 50%;
 }
 
@@ -100,3 +100,8 @@ button:active {
   background-color: #3e8e41;
   transform: translateY(3px);
 }
+
+
+
+/* ________________________________________________________________________________ */
+/* Starting a New Section */
