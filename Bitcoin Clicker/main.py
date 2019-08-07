@@ -70,7 +70,7 @@ class MainHandler(webapp2.RequestHandler):
 
 class GamePage(webapp2.RequestHandler):
     def get(self):  # for a get request
-        welcome_template = the_jinja_env.get_template('bitcoin.html')
+        welcome_template = the_jinja_env.get_template('design.html')
         self.response.write(welcome_template.render())  # the response
 
 app = webapp2.WSGIApplication([
