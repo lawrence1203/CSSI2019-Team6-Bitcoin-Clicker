@@ -167,3 +167,100 @@ button:active {
 
 /* ________________________________________________________________________________ */
 /* Starting a New Section */
+
+
+.progress_bar_Sect1 {
+  position: center;
+  top: 50%;
+  left: 50%;
+
+}
+.loading-bar {
+  display: inline-block;
+  align-content: center;
+  padding-top: 1.45%;
+  width: .25%;
+  height: 50%;
+  border-radius: 4px;
+  animation: loading 1s ease-in-out infinite;
+}
+.loading-bar:nth-child(1) {
+  background-color: #3498db;
+  animation-delay: 0;
+}
+.loading-bar:nth-child(2) {
+  background-color: #c0392b;
+  animation-delay: 0.09s;
+}
+.loading-bar:nth-child(3) {
+  background-color: #f1c40f;
+  animation-delay: .18s;
+}
+.loading-bar:nth-child(4) {
+  background-color: #27ae60;
+  animation-delay: .27s;
+}
+.loading-bar:nth-child(5) {
+  background-color: #3498db;
+  animation-delay: .36s;
+}
+.loading-bar:nth-child(6) {
+  background-color: #c0392b;
+  animation-delay: .45s;
+}
+.loading-bar:nth-child(7) {
+  background-color: #f1c40f;
+  animation-delay: .54s;
+}
+.loading-bar:nth-child(8) {
+  background-color: #27ae60;
+  animation-delay: .63s;
+}
+.loading-bar:nth-child(9) {
+  background-color: #3498db;
+  animation-delay: .72s;
+}
+.loading-bar:nth-child(10) {
+  background-color: #c0392b;
+  animation-delay: .81s;
+}
+.loading-bar:nth-child(11) {
+  background-color: #f1c40f;
+  animation-delay: .90s;
+}
+.loading-bar:nth-child(12) {
+  background-color: #27ae60;
+  animation-delay: .99s;
+}
+.loading-bar:nth-child(13) {
+  background-color: #3498db;
+  animation-delay: 1.08s;
+}
+.loading-bar:nth-child(14) {
+  background-color: #c0392b;
+  animation-delay: 1.17s;
+}
+.loading-bar:nth-child(15) {
+  background-color: #f1c40f;
+  animation-delay: 1.26s;
+}
+.loading-bar:nth-child(16) {
+  background-color: #27ae60;
+  animation-delay: 1.35s;
+}
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 2.2);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+
+
+/* ________________________________________________________________________________ */
+/* Starting a New Section */
