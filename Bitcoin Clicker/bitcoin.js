@@ -1,9 +1,14 @@
 redDwarfbutton = document.querySelector(".ItemPicture1")
 
+let total = 0
+let red
 
-let redDwarf = 0
-let redDwarfUpgrade = 0
+function harvest(add)
+  {
+    total += add
+  };
 
-redDwarfbutton.addEventListener("click", function() {
-  
-})
+function upgrade(cost,amount,add,lvl)
+{
+
+};
