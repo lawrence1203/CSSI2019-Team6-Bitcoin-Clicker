@@ -76,6 +76,73 @@
   background-color: #27ae60;
   animation-delay: 1.35s;
 }
+/*//////////////////////////////////////////////////////////////*/
+.loading-bar:nth-child(17) {
+  background-color: #FFFFFF;
+  animation-delay: 1.44s;
+}
+.loading-bar:nth-child(18) {
+  background-color: #FFFFFF;
+  animation-delay: 1.53s;
+}
+.loading-bar:nth-child(19) {
+  background-color: #FFFFFF;
+  animation-delay: 1.62s;
+}
+.loading-bar:nth-child(20) {
+  background-color: #FFFFFF;
+  animation-delay: 1.71s;
+}
+.loading-bar:nth-child(21) {
+  background-color: #FFFFFF;
+  animation-delay: 1.80s;
+}
+.loading-bar:nth-child(22) {
+  background-color: #FFFFFF;
+  animation-delay: 1.89s;
+}
+.loading-bar:nth-child(23) {
+  background-color: #FFFFFF;
+  animation-delay: 1.98s;
+}
+.loading-bar:nth-child(24) {
+  background-color: #FFFFFF;
+  animation-delay: 2.07s;
+}
+.loading-bar:nth-child(25) {
+  background-color: #FFFFFF;
+  animation-delay: 2.16s;
+}
+.loading-bar:nth-child(26) {
+  background-color: #FFFFFF;
+  animation-delay: 2.25s;
+}
+.loading-bar:nth-child(27) {
+  background-color: #FFFFFF;
+  animation-delay: 2.34s;
+}
+.loading-bar:nth-child(28) {
+  background-color: #FFFFFF;
+  animation-delay: 2.43s;
+}
+.loading-bar:nth-child(29) {
+  background-color: #FFFFFF;
+  animation-delay: 2.52s;
+}
+.loading-bar:nth-child(30) {
+  background-color: #FFFFFF;
+  animation-delay: 2.61s;
+}
+.loading-bar:nth-child(31) {
+  background-color: #FFFFFF;
+  animation-delay: 2.70s;
+}
+.loading-bar:nth-child(32) {
+  background-color: #FFFFFF;
+  animation-delay: 2.79s;
+}
+
+/*//////////////////////////////////////////////////////////////*/
 @keyframes loading {
   0% {
     transform: scale(1);
@@ -85,8 +152,5 @@
   }
   40% {
     transform: scale(1);
-  }
-  50% {
-    transform: scale(2, 1);
   }
 }
