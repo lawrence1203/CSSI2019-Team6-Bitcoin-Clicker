@@ -14,7 +14,7 @@ function harvest(plus) {
     currency.innerHTML = total + " StarDust";
 };
 
-function redDwarf_upgrader() {
+function redDwarf_upgrader() {   //red dwarf are the most common type of star
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
@@ -23,26 +23,12 @@ function redDwarf_upgrader() {
       currency.innerHTML = total + " StarDust";
       redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
     } else {
-      redDwarf_upgrade.innerHTML = "Not Enough StarDust, you're too poor!";
+      redDwarf_upgrade.innerHTML = "Not Enough StarDust!";
       setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
     }
 };
 
-function redDwarf_upgrader() {
-    if (total >= redDwarf_cost) {
-      total = total - redDwarf_cost;
-      redDwarf_amount = redDwarf_amount + 1;
-      redDwarf_cost = redDwarf_cost + redDwarf_add;
-      redDwarf_add = redDwarf_add + 1;
-      currency.innerHTML = total + " StarDust";
-      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
-    } else {
-      name.innerHTML = "Not Enough StarDust, you're too poor!";
-      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
-    }
-};
-
-function redDwarf_upgrader() {
+function redDwarf_upgrader() {  // this should be yellow dwarf our own sun is one of these
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
@@ -56,7 +42,21 @@ function redDwarf_upgrader() {
     }
 };
 
-function redDwarf_upgrader() {
+function redDwarf_upgrader() { // this should ba a blue giant above ten thousand degrees kelvin
+    if (total >= redDwarf_cost) {
+      total = total - redDwarf_cost;
+      redDwarf_amount = redDwarf_amount + 1;
+      redDwarf_cost = redDwarf_cost + redDwarf_add;
+      redDwarf_add = redDwarf_add + 1;
+      currency.innerHTML = total + " StarDust";
+      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
+    } else {
+      name.innerHTML = "Not Enough StarDust, you're too poor!";
+      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
+    }
+};
+
+function redDwarf_upgrader() {   //blue supergiant so large they fade very quickly
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
@@ -70,7 +70,21 @@ function redDwarf_upgrader() {
     }
 };
 
-function redDwarf_upgrader() {
+function redDwarf_upgrader() { // red super giant have spent all the hydrogen in their cores
+    if (total >= redDwarf_cost) {
+      total = total - redDwarf_cost;
+      redDwarf_amount = redDwarf_amount + 1;
+      redDwarf_cost = redDwarf_cost + redDwarf_add;
+      redDwarf_add = redDwarf_add + 1;
+      currency.innerHTML = total + " StarDust";
+      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
+    } else {
+      name.innerHTML = "Not Enough StarDust, you're too poor!";
+      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
+    }
+};
+
+function redDwarf_upgrader() { // nuetron stars the collapsed cores of stars a sinle tea spoon of iron wwieghs a billion tons
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
@@ -85,6 +99,20 @@ function redDwarf_upgrader() {
 };
 
 function redDwarf_upgrader() {
+    if (total >= redDwarf_cost) { // black dwarfs theoroetical white stars with no more engery left
+      total = total - redDwarf_cost;
+      redDwarf_amount = redDwarf_amount + 1;
+      redDwarf_cost = redDwarf_cost + redDwarf_add;
+      redDwarf_add = redDwarf_add + 1;
+      currency.innerHTML = total + " StarDust";
+      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
+    } else {
+      name.innerHTML = "Not Enough StarDust, you're too poor!";
+      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
+    }
+};
+
+function redDwarf_upgrader() {  // black holes so massive that light cant escape
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
@@ -98,35 +126,7 @@ function redDwarf_upgrader() {
     }
 };
 
-function redDwarf_upgrader() {
-    if (total >= redDwarf_cost) {
-      total = total - redDwarf_cost;
-      redDwarf_amount = redDwarf_amount + 1;
-      redDwarf_cost = redDwarf_cost + redDwarf_add;
-      redDwarf_add = redDwarf_add + 1;
-      currency.innerHTML = total + " StarDust";
-      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
-    } else {
-      name.innerHTML = "Not Enough StarDust, you're too poor!";
-      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
-    }
-};
-
-function redDwarf_upgrader() {
-    if (total >= redDwarf_cost) {
-      total = total - redDwarf_cost;
-      redDwarf_amount = redDwarf_amount + 1;
-      redDwarf_cost = redDwarf_cost + redDwarf_add;
-      redDwarf_add = redDwarf_add + 1;
-      currency.innerHTML = total + " StarDust";
-      redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
-    } else {
-      name.innerHTML = "Not Enough StarDust, you're too poor!";
-      setTimeout(name.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust", 1000);
-    }
-};
-
-function redDwarf_upgrader() {
+function redDwarf_upgrader() {   //  super nova  the bueatiful death of a star:
     if (total >= redDwarf_cost) {
       total = total - redDwarf_cost;
       redDwarf_amount = redDwarf_amount + 1;
