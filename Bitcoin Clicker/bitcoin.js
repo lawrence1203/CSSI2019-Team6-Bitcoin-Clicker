@@ -4,6 +4,7 @@ let total = 0
 
 const redDwarf_upgrade = document.querySelector(".Upgrade_Sect1")
 const redDwarf = document.querySelector(".ItemPicture_Sect1")
+const redDwarf_Stats = document.querySelector(".Stats_Sect1")
 
 let redDwarf_cost = 10;
 let redDwarf_amount = 1;
@@ -12,6 +13,7 @@ let redDwarf_plus = 1;
 
 const yellowDwarf_upgrade = document.querySelector(".Upgrade_Sect2")
 const yellowDwarf = document.querySelector(".ItemPicture_Sect2")
+const yellowDwarf_Stats = document.querySelector(".Stats_Sect2")
 
 let yellowDwarf_cost = 10;
 let yellowDwarf_amount = 1;
@@ -20,6 +22,7 @@ let yellowDwarf_plus = 1;
 
 const blueGiant_upgrade = document.querySelector(".Upgrade_Sect3")
 const blueGiant = document.querySelector(".ItemPicture_Sect3")
+const blueGiant_Stats = document.querySelector(".Stats_Sect3")
 
 let blueGiant_cost = 10;
 let blueGiant_amount = 1;
@@ -28,6 +31,7 @@ let blueGiant_plus = 1;
 
 const blueSuperGiant_upgrade = document.querySelector(".Upgrade_Sect4")
 const blueSuperGiant = document.querySelector(".ItemPicture_Sect4")
+const blueSuperGiant_Stats = document.querySelector(".Stats_Sect4")
 
 let blueSuperGiant_cost = 10;
 let blueSuperGiant_amount = 1;
@@ -36,6 +40,7 @@ let blueSuperGiant_plus = 1;
 
 const redSuperGiant_upgrade = document.querySelector(".Upgrade_Sect5")
 const redSuperGiant = document.querySelector(".ItemPicture_Sect5")
+const redSuperGiant_Stats = document.querySelector(".Stats_Sect5")
 
 let redSuperGiant_cost = 10;
 let redSuperGiant_amount = 1;
@@ -44,6 +49,7 @@ let redSuperGiant_plus = 1;
 
 const neutronStar_upgrade = document.querySelector(".Upgrade_Sect6")
 const neutronStar = document.querySelector(".ItemPicture_Sect6")
+const neutronStar_Stats = document.querySelector(".Stats_Sect6")
 
 let neutronStar_cost = 10;
 let neutronStar_amount = 1;
@@ -52,6 +58,7 @@ let neutronStar_plus = 1;
 
 const blackDwarf_upgrade = document.querySelector(".Upgrade_Sect7")
 const blackDwarf = document.querySelector(".ItemPicture_Sect7")
+const blackDwarf_Stats = document.querySelector(".Stats_Sect7")
 
 let blackDwarf_cost = 10;
 let blackDwarf_amount = 1;
@@ -60,6 +67,7 @@ let blackDwarf_plus = 1;
 
 const blackHole_upgrade = document.querySelector(".Upgrade_Sect8")
 const blackHole = document.querySelector(".ItemPicture_Sect8")
+const blackHole_Stats = document.querySelector(".Stats_Sect8")
 
 let blackHole_cost = 10;
 let blackHole_amount = 1;
@@ -68,6 +76,7 @@ let blackHole_plus = 1;
 
 const superNova_upgrade = document.querySelector(".Upgrade_Sect9")
 const superNova = document.querySelector(".ItemPicture_Sect9")
+const superNova_Stats = document.querySelector(".Stats_Sect9")
 
 let superNova_cost = 10;
 let superNova_amount = 1;
@@ -87,6 +96,7 @@ function redDwarf_upgrader() {   //red dwarf are the most common type of star
       redDwarf_add = redDwarf_add + 1;
       currency.innerHTML = total + " StarDust";
       redDwarf_upgrade.innerHTML = "Upgrade: " + redDwarf_cost + " StarDust";
+      redDwarf_Stats.innerHTML = "Red Dwarf Count: " + redDwarf_amount;
     } else {
       redDwarf_upgrade.innerHTML = "Not Enough StarDust! You need: " + redDwarf_cost;
     }
@@ -100,6 +110,7 @@ function yellowDwarf_upgrader() {  // this should be yellow dwarf our own sun is
       yellowDwarf_add = yellowDwarf_add + 1;
       currency.innerHTML = total + " StarDust";
       yellowDwarf_upgrade.innerHTML = "Upgrade: " + yellowDwarf_cost + " StarDust";
+      yellowDwarf_Stats.innerHTML = "Yellow Dwarf Count: " + yellowDwarf_amount;
     } else {
       yellowDwarf_upgrade.innerHTML = "Not Enough StarDust! You need: " + yellowDwarf_cost;
     }
@@ -113,6 +124,7 @@ function blueGiant_upgrader() { // this should ba a blue giant above ten thousan
       blueGiant_add = blueGiant_add + 1;
       currency.innerHTML = total + " StarDust";
       blueGiant_upgrade.innerHTML = "Upgrade: " + blueGiant_cost + " StarDust";
+      blueGiant_Stats.innerHTML = "Blue Giant Count: " + blueGiant_amount;
     } else {
       blueGiant_upgrade.innerHTML = "Not Enough StarDust! You need: " + blueGiant_cost;
     }
@@ -126,6 +138,7 @@ function blueSuperGiant_upgrader() {   //blue supergiant so large they fade very
       blueSuperGiant_add = blueSuperGiant_add + 1;
       currency.innerHTML = total + " StarDust";
       blueSuperGiant_upgrade.innerHTML = "Upgrade: " + blueSuperGiant_cost + " StarDust";
+      blueSuperGiant_Stats.innerHTML = "Blue Super Giant Count: " + blueSuperGiant_amount;
     } else {
       blueSuperGiant_upgrade.innerHTML = "Not Enough StarDust! You need: " + blueSuperGiant_cost;
     }
@@ -139,6 +152,7 @@ function redSuperGiant_upgrader() { // red super giant have spent all the hydrog
       redSuperGiant_add = redSuperGiant_add + 1;
       currency.innerHTML = total + " StarDust";
       redSuperGiant_upgrade.innerHTML = "Upgrade: " + redSuperGiant_cost + " StarDust";
+      redSuperGiant_Stats.innerHTML = "Red Super Giant Count: " + redSuperGiant_amount;
     } else {
       redSuperGiant_upgrade.innerHTML = "Not Enough StarDust! You need: " + redSuperGiant_cost;
     }
@@ -152,6 +166,7 @@ function neutronStar_upgrader() { // neutron stars the collapsed cores of stars 
       neutronStar_add = neutronStar_add + 1;
       currency.innerHTML = total + " StarDust";
       neutronStar_upgrade.innerHTML = "Upgrade: " + neutronStar_cost + " StarDust";
+      neutronStar_Stats.innerHTML = "Neutron Star Count: " + neutronStar_amount;
     } else {
       neutronStar_upgrade.innerHTML = "Not Enough StarDust! You need: " + neutronStar_cost;
     }
@@ -165,6 +180,7 @@ function blackDwarf_upgrader() {
       blackDwarf_add = blackDwarf_add + 1;
       currency.innerHTML = total + " StarDust";
       blackDwarf_upgrade.innerHTML = "Upgrade: " + blackDwarf_cost + " StarDust";
+      blackDwarf_Stats.innerHTML = "Black Dwarf Count: " + blackDwarf_amount;
     } else {
       blackDwarf_upgrade.innerHTML = "Not Enough StarDust! You need: " + blackDwarf_cost;
     }
@@ -178,6 +194,7 @@ function blackHole_upgrader() {  // black holes so massive that light cant escap
       blackHole_add = blackHole_add + 1;
       currency.innerHTML = total + " StarDust";
       blackHole_upgrade.innerHTML = "Upgrade: " + blackHole_cost + " StarDust";
+      blackHole_Stats.innerHTML = "Black Hole Count: " + blackHole_amount;
     } else {
       blackHole_upgrade.innerHTML = "Not Enough StarDust! You need: " + blackHole_cost;
 }
@@ -191,10 +208,13 @@ function superNova_upgrader() {   //  super nova  the bueatiful death of a star:
       superNova_add = superNova_add + 1;
       currency.innerHTML = total + " StarDust";
       superNova_upgrade.innerHTML = "Upgrade: " + superNova_cost + " StarDust";
+      superNova_Stats.innerHTML = "Super Nova Count: " + superNova_amount;
     } else {
       superNova_upgrade.innerHTML = "Not Enough StarDust! You need: " + superNova_cost;
 }
 };
+
+
 
 redDwarf.addEventListener("click", (event) => {
   harvest(redDwarf_amount);
