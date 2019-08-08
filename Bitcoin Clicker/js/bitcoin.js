@@ -83,6 +83,20 @@ let superNova_amount = 1;
 let superNova_add = 1;
 let superNova_plus = 1;
 
+const redDwarf_manager = document.querySelector()
+const yellowDwarf_manager = document.querySelector()
+const blueGiant_manager = document.querySelector()
+const blueSuperGiant_manager = document.querySelector()
+const redSuperGiant_manager = document.querySelector()
+const neutronStar_manager = document.querySelector()
+const blackDwarf_manager = document.querySelector()
+const blackHole_manager = document.querySelector()
+const superNova_manager = document.querySelector()
+
+function manager(manager) {
+  setInterval(harvest(manager), 1000);
+};
+
 function harvest(plus) {
     total += plus;
     currency.innerHTML = total + " StarDust";
