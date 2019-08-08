@@ -83,19 +83,19 @@ let superNova_amount = 1;
 let superNova_add = 1;
 let superNova_plus = 1;
 
-const redDwarf_manager = document.querySelector()
-const yellowDwarf_manager = document.querySelector()
-const blueGiant_manager = document.querySelector()
-const blueSuperGiant_manager = document.querySelector()
-const redSuperGiant_manager = document.querySelector()
-const neutronStar_manager = document.querySelector()
-const blackDwarf_manager = document.querySelector()
-const blackHole_manager = document.querySelector()
-const superNova_manager = document.querySelector()
+const redDwarf_manager = document.querySelector(".manager1")
+const yellowDwarf_manager = document.querySelector(".manager2")
+const blueGiant_manager = document.querySelector(".manager3")
+const blueSuperGiant_manager = document.querySelector(".manager4")
+const redSuperGiant_manager = document.querySelector(".manager5")
+const neutronStar_manager = document.querySelector(".manager6")
+const blackDwarf_manager = document.querySelector(".manager7")
+const blackHole_manager = document.querySelector(".manager8")
+const superNova_manager = document.querySelector(".manager9")
 
-function manager(manager) {
-  setInterval(harvest(manager), 1000);
-};
+function redDwarf_managerBuy() {
+  setInterval(harvest(redDwarf_manager), 1000);
+}
 
 function harvest(plus) {
     total += plus;
@@ -301,3 +301,7 @@ superNova.addEventListener("click", (event) => {
 superNova_upgrade.addEventListener("click", (event) => {
   superNova_upgrader();
 });
+
+redDwarf_manager.addEventListener("click", (event) => {
+  redDwarf_managerBuy()
+})
