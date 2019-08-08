@@ -5,10 +5,13 @@
     <title></title>
     <link rel="stylesheet" href="epirement.css">
   </head>
+
   <body>
+  <button onclick = "myFunction()">test</button>
 
-
-<div class="loading">
+<div id="myDIV"></div>
+<div class="loading" id="myBarDiv">
+  <!-- <div class="loading-bar"></div>
   <div class="loading-bar"></div>
   <div class="loading-bar"></div>
   <div class="loading-bar"></div>
@@ -35,12 +38,28 @@
   <div class="loading-bar"></div>
   <div class="loading-bar"></div>
   <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
-  <div class="loading-bar"></div>
+  <div class="loading-bar"></div> -->
 </div>
+
+
+<script>
+function myFunction() {
+  document.getElementById("myDIV").style.WebkitAnimationDelay = "2s";
+  document.getElementById("myDIV").style.animationDelay = "2s";
+
+  var container = document.getElementById("container");
+  for (var i=0; i<20; i++){
+    var delay = i;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
   </body>
+  <script type="text/javascript" src = "css.js"></script>
 </html>
