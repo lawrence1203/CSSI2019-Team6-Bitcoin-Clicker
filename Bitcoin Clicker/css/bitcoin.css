@@ -131,6 +131,7 @@ body {
 .Stats {
   height: 100%;
   width: 200%;
+  font-size: 20px;
 
 }
 .Upgrade {
