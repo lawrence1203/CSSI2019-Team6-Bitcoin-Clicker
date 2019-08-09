@@ -52,7 +52,7 @@
     <div class="column2">
       <div class="subrow1"></div>
         <div class="progress_bar progress_bar_Sect1"  id="row2">Progress
-          <div class="loading" id="container"></div>
+          <div class="loading" id="container1"></div>
         </div>
 
       <div class="subrow2">
@@ -72,7 +72,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect2" id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect2" id="row2">Progress
+          <div class = "loading" id = "container2"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect2" id = "row2">Yellow Dwarf Power: 0</div>
@@ -90,7 +92,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect3"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect3"  id="row2">Progress
+          <div class = "loading" id = "container3"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect3" id = "row2">Blue Giant Power: 0</div>
@@ -108,7 +112,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect4"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect4"  id="row2">Progress
+          <div class = "loading" id = "container4"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect4" id = "row2">Blue Super Giant Power: 0</div>
@@ -126,7 +132,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect5"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect5"  id="row2">Progress
+          <div class = "loading" id = "container5"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect5" id = "row2">Red Super Giant Power: 0</div>
@@ -144,7 +152,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect6"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect6"  id="row2">Progress
+          <div class = "loading" id = "container6"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect6"  id = "row2">Red Dwarf Power: 0</div>
@@ -162,7 +172,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect7"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect7"  id="row2">Progress
+          <div class = "loading" id = "container7"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect7"  id = "row2">Stats</div>
@@ -180,7 +192,9 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect8"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect8"  id="row2">Progress
+          <div class = "loading" id = "container8"></div>
+        </div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect8" id = "row2">Stats</div>
@@ -198,7 +212,8 @@
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect9"  id="row2">Progress</div>
+        <div class = "progress_bar progress_bar_Sect9"  id="row2">Progress
+        <div class = "loading" id = "container9"></div></div>
       <div class="subrow2">
         <div class = "subcolumn1">
             <div class = "Stats Stats_Sect9"  id = "row2">Stats</div>
@@ -304,18 +319,18 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 
-<!-- ////////////////////////////////////////////////////////////////////// -->
+<!-- This is Section 1 ////////////////////////////////////////////////////////////////////// -->
 
 <script>
 myFunction();
 function myFunction() {
 
-  var container = document.getElementById("container");
+  var container = document.getElementById("container1");
   for (var i=0; i<70; i++){
     var delay = i/1.9;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
-    bar.classList.add('barclass');
+    bar.classList.add('barclass1');
 
     bar.style.WebkitAnimationDelay = ""+delay+"s";
     bar.style.animationDelay = ""+delay+"s"
@@ -323,6 +338,190 @@ function myFunction() {
 }
 
 </script>
+
+<!-- This is Section 2 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container2");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass2');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 3 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container3");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass3');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 4 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container4");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass4');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 5 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container5");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass5');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 6 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container6");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass6');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 7 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container7");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass7');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 8 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container8");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass8');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 9 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container9");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass9');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- This is Section 10 ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container10");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass10');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
+</script>
+
+<!-- END ////////////////////////////////////////////////////////////////////// -->
+
+
 </body>
 <script type="text/javascript" src="js/bitcoin.js">
 </script>
