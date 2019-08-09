@@ -208,7 +208,7 @@ div. {
   width: .25%;
   height: 50%;
   border-radius: 4px;
-  animation: loading 1s ease-in-out infinite;
+  animation: loading 2s ease-in-out infinite;
 
 }
 

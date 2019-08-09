@@ -1,4 +1,4 @@
-
+/*
 div#myDIV {
   width: 100px;
   height: 100px;
@@ -8,7 +8,7 @@ div#myDIV {
   -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
   animation: mymove 5s infinite;
   animation-delay: 1s;
-}
+} */
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -21,14 +21,33 @@ div#myDIV {
   to {left: 1500px}
 }
 
-@-webkit-keyframes mymove 2 {
+@-webkit-keyframes mymove2 {
   from {background-color: red;}
   to {background-color: blue;}
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 1.7);
+  }
+  40% {
+    transform: scale(2);
+  }
+
 }
 
 @keyframes mymove2 {
   from {background-color: red;}
   to {background-color: blue;}
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 1.7);
+  }
+  40% {
+    transform: scale(2);
+  }
 }
 
 div#container {
@@ -44,10 +63,12 @@ div.barclass {
   margin-right: 5px;
   width: 10px;
   height: 60px;
-  background-color: blue;
+  background-color: gray;
 
-  animation: mymove2 5s infinite;
-  animation-delay: 0;
+  -webkit-animation: mymove2 2s infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+  animation: mymove2 1.1s infinite;
+  animation-delay: .01s;
 }
 
 
@@ -70,11 +91,6 @@ div.barclass {
 
 
 
-.loading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
 .loading-bar {
   display: inline-block;
   width: 4px;
@@ -84,10 +100,10 @@ div.barclass {
   animation: loading 4s ease-in-out infinite;
   animation-delay: 0;
 }
-.loading-bar:nth-child(1) {
+/* .loading-bar:nth-child(1) {
   background-color: #3498db;
   animation-delay: 0;
-}
+} */
 /* .loading-bar:nth-child(2) {
   background-color: #c0392b;
   animation-delay: 0.09s;
