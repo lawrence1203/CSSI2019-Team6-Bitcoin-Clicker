@@ -18,16 +18,18 @@
 </div>
 
 <div class="music">
-    <audio src="StarCloudBurst.mp3" id="song1" volume="0.1" style="display: none;"></audio>
-    <audio src="StarDustRoad.mp3" id="song2" volume="0.1" style="display: none;"></audio>
-    <audio src="StarMoonlightFlight.mp3" id="song3" volume="0.1" style="display: none;"></audio>
+    <!-- <audio src="StarCloudBurst.mp3" id="song1" volume="0.1" style="display: none;"></audio>
+    <audio src="StarDustRoad.mp3 StarMoonlightFlight" id="song2" volume="0.1" style="display: none;"></audio> -->
+    <audio loop autoplay="autoplay" controls>
+      <source src="Music/StarDustRoadCopy.mp3" type="audio/mpeg" style="display: none;">
+    </audio>
 
-    <script>
+    <!-- <script>
     for (var i = 1; i < 3; i++)
       {
         document.querySelector("#song" + i)[0].play();
       }
-    </script>
+    </script> -->
 </div>
 
 
@@ -327,7 +329,7 @@ function myFunction() {
 
   var container = document.getElementById("container1");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/27;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass1');
@@ -347,7 +349,7 @@ function myFunction() {
 
   var container = document.getElementById("container2");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/24;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass2');
@@ -367,7 +369,7 @@ function myFunction() {
 
   var container = document.getElementById("container3");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/21;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass3');
@@ -387,7 +389,7 @@ function myFunction() {
 
   var container = document.getElementById("container4");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/18;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass4');
@@ -407,7 +409,7 @@ function myFunction() {
 
   var container = document.getElementById("container5");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/15;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass5');
@@ -427,7 +429,7 @@ function myFunction() {
 
   var container = document.getElementById("container6");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/12;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass6');
@@ -447,7 +449,7 @@ function myFunction() {
 
   var container = document.getElementById("container7");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/9;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass7');
@@ -467,7 +469,7 @@ function myFunction() {
 
   var container = document.getElementById("container8");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/6;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass8');
@@ -487,7 +489,7 @@ function myFunction() {
 
   var container = document.getElementById("container9");
   for (var i=0; i<70; i++){
-    var delay = i/1.9;
+    var delay = i/.9;
     var bar = document.createElement("DIV");
     container.appendChild(bar);
     bar.classList.add('barclass9');
