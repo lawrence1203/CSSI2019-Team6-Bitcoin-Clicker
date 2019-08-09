@@ -15,17 +15,29 @@
 <div class="tab"> <!-- This is where to edit the tab names-->
   <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
   <button class="tablinks" onclick="openCity(event, 'Manager')">Managers</button>
-  <button class="tablinks" onclick="openCity(event, 'Setting')">Settings</button>
-  <button class="tablinks" onclick="openCity(event, 'Contact')">Contact Us</button>
 </div>
 
+<div class="music">
+    <audio src="StarCloudBurst.mp3" id="song1" volume="0.1" style="display: none;"></audio>
+    <audio src="StarDustRoad.mp3" id="song2" volume="0.1" style="display: none;"></audio>
+    <audio src="StarMoonlightFlight.mp3" id="song3" volume="0.1" style="display: none;"></audio>
+
+    <script>
+    for (var i = 1; i < 3; i++)
+      {
+        document.querySelector("#song" + i)[0].play();
+      }
+    </script>
+</div>
+
+
 <div id="Home" class="tabcontent"> <!-- This is where we edit the content for each page-->
-  <h3>Home</h3>
+  <p> </p>
   <div class = "title" id = "title">
 
       <div class="titlerow">
-        <img class="UserPicture" id="row1" src="http://pngimages.net/sites/default/files/user-png-image-59194.png" alt="">
-        <div class="UserName" id = "row1">UserName</div>
+        <img class="UserPicture" id="row1" src="sfan.jpg.png" alt="dr. Fan ">
+        <div class="UserName" id = "row1">Simon Fan </div>
       </div>
     <div class="Currency" id="row1">StarDust</div>
 
@@ -35,11 +47,13 @@
 
   <div class = "row" id = "row2"> <!--; This is Section 1-->
     <div class="column1" id="col1">
-        <img class="ItemPicture ItemPicture_Sect1" id="row2" src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia21752-16.gif" alt="">
+        <img  class="ItemPicture ItemPicture_Sect1" id="row2" src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia21752-16.gif" alt="">
     </div>
     <div class="column2">
       <div class="subrow1"></div>
-        <div class = "progress_bar progress_bar_Sect1"  id="row2">Progress</div>
+        <div class="progress_bar progress_bar_Sect1"  id="row2">Progress
+          <div class="loading" id="container"></div>
+        </div>
 
       <div class="subrow2">
         <div class = "subcolumn1">
@@ -287,15 +301,7 @@
   </div>
 </div>
 <!-- ////////////////////////////////////////////////////////////////////// -->
-<div id="Setting" class="tabcontent">
-  <h3>Settings</h3>
-  <p>Settings Page Here</p>
-</div>
-<!-- ////////////////////////////////////////////////////////////////////// -->
-<div id="Contact" class="tabcontent">
-  <h3>Contact Us</h3>
-  <p>Set a Contact page for us here</p>
-</div>
+
 <!-- ////////////////////////////////////////////////////////////////////// -->
 <script>
 function openCity(evt, cityName) {
@@ -313,6 +319,26 @@ function openCity(evt, cityName) {
 }
 
 document.getElementById("defaultOpen").click();
+</script>
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
+
+<script>
+myFunction();
+function myFunction() {
+
+  var container = document.getElementById("container");
+  for (var i=0; i<70; i++){
+    var delay = i/1.9;
+    var bar = document.createElement("DIV");
+    container.appendChild(bar);
+    bar.classList.add('barclass');
+
+    bar.style.WebkitAnimationDelay = ""+delay+"s";
+    bar.style.animationDelay = ""+delay+"s"
+  }
+}
+
 </script>
 </body>
 <script type="text/javascript" src="js/bitcoin.js">

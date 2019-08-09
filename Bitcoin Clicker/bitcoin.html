@@ -10,6 +10,17 @@
 
 <div class = "title" id = "title">
 
+    <audio src="MySong2" id="song2" volume="0.1" style="display: none;"></audio>
+    <audio src="MySong3" id="song2" volume="0.1" style="display: none;"></audio>
+    <audio src="MySong4" id="song2" volume="0.1" style="display: none;"></audio>
+
+    <script>
+    for (var i = 1; i <= 3; i++)
+      {
+        document.querySelector("#song" + i)[0].play();
+      }
+    </script>
+
     <div class="titlerow">
       <img class="UserPicture" id="row1" src="http://pngimages.net/sites/default/files/user-png-image-59194.png" alt="">
       <div class="UserName" id = "row1">UserName</div>

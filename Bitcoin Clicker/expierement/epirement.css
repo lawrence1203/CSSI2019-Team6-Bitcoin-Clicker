@@ -4,14 +4,14 @@ div#myDIV {
   height: 100px;
   background: blue;
   position:relative;
-  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-  -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+  -webkit-animation: mymove 5s infinite;
+  -webkit-animation-delay: 5s;
   animation: mymove 5s infinite;
-  animation-delay: 1s;
+  animation-delay: 0s;
 } */
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
+/* @-webkit-keyframes mymove {
   from {left: 0px;}
   to {left: 1500px:}
 }
@@ -19,7 +19,7 @@ div#myDIV {
 @keyframes mymove {
   from {left: 0px;}
   to {left: 1500px}
-}
+} */
 
 @-webkit-keyframes mymove2 {
   from {background-color: red;}
@@ -59,16 +59,16 @@ div.barclass {
   text-align: center;
     float: left;
     position: relative;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 10px;
+  margin-left: .1%;
+  margin-right: .5%;
+  width: .1%;
   height: 60px;
   background-color: gray;
 
-  -webkit-animation: mymove2 2s infinite; /* Chrome, Safari, Opera */
-  -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
-  animation: mymove2 1.1s infinite;
-  animation-delay: .01s;
+  -webkit-animation: mymove2 0s infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+  animation: mymove2 .6s infinite;
+  animation-delay: 0s;
 }
 
 
